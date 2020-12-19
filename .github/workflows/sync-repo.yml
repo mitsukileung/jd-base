@@ -25,6 +25,6 @@ jobs:
         if: env.PAT
         with:
           source_repo: "https://github.com/EvineDeng/jd-base.git"
-          source_branch: "main"
+          source_branch: "v3"
           destination_branch: "master"
           github_token: ${{ secrets.PAT }}
